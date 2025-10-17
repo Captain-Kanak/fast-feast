@@ -1,0 +1,53 @@
+[
+  {
+    "_id": { "$oid": "68f09b69b43773ea7c5016c8" },
+    "title": "Classic Tom Yum Soup",
+    "imageUrl": "https://i.ibb.co.com/WNrqbBhy/Classic-Tom-Yum-Soup.jpg",
+    "description": "Traditional Thai hot and sour soup with shrimp, mushrooms, lemongrass, and kaffir lime leaves.",
+    "price": { "$numberInt": "320" },
+    "cuisine": "Thai",
+    "category": "Soups",
+    "ingredients": [
+      "Shrimp",
+      "Mushrooms",
+      "Lemongrass",
+      "Kaffir Lime",
+      "Chili",
+      "Lime Juice"
+    ],
+    "dietaryTags": ["Gluten-Free", "Pescatarian"],
+    "restaurantId": { "$oid": "68f09366b43773ea7c50164b" },
+    "availability": true,
+    "isCombo": false,
+    "isSpecialOffer": true,
+    "discountRate": { "$numberInt": "20" },
+    "offerPrice": { "$numberInt": "256" },
+    "reviewsCount": { "$numberInt": "0" },
+    "rating": { "$numberInt": "0" },
+    "createdAt": { "$date": { "$numberLong": "1760598889555" } },
+    "updatedAt": { "$date": { "$numberLong": "1760598889555" } }
+  },
+  {
+    "_id": { "$oid": "68dd11ac21b9c9a8b58bda2c" },
+    "imageUrl": "https://i.ibb.co.com/5XJ2tZdQ/Thai-Green-Curry.jpg",
+    "title": "Thai Green Curry",
+    "description": "Aromatic curry with coconut milk, Thai basil, eggplant, and your choice of protein.",
+    "price": { "$numberInt": "420" },
+    "isCombo": false,
+    "cuisine": "Thai",
+    "category": "Snacks",
+    "rating": { "$numberDouble": "4.8" },
+    "ingredients": [
+      "Coconut Milk",
+      "Green Curry Paste",
+      "Thai Basil",
+      "Eggplant",
+      "Chicken",
+      "Bamboo Shoots"
+    ],
+    "dietaryTags": ["Dairy-Free", "Spicy"],
+    "availability": true,
+    "restaurantId": "60c72b2f9f1b2c001f3e4d60",
+    "createdAt": "2025-09-29T10:10:00.000Z"
+  }
+]

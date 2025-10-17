@@ -1,0 +1,113 @@
+[
+  {
+    "_id": { "$oid": "68f14805fc9bba0ffcd95ae5" },
+    "customerInfo": {
+      "fullName": "Kanak Ray",
+      "email": "kanakroy835@gmail.com",
+      "phone": "01704210835",
+      "address": "Barabari, Lalmonirhat",
+      "city": "Lalmonirhat",
+      "postalCode": "5500"
+    },
+    "items": [
+      {
+        "title": "Classic Tom Yum Soup",
+        "price": { "$numberInt": "320" },
+        "quantity": { "$numberInt": "1" },
+        "specialInstructions": ""
+      },
+      {
+        "title": "Authentic Pad Thai",
+        "price": { "$numberInt": "380" },
+        "quantity": { "$numberInt": "1" },
+        "specialInstructions": ""
+      },
+      {
+        "title": "Thai Green Curry",
+        "price": { "$numberInt": "420" },
+        "quantity": { "$numberInt": "1" },
+        "specialInstructions": ""
+      }
+    ],
+    "paymentMethod": "cash",
+    "paymentIntentId": null,
+    "pricing": {
+      "subtotal": { "$numberInt": "1120" },
+      "deliveryFee": { "$numberInt": "50" },
+      "tax": { "$numberInt": "112" },
+      "total": { "$numberInt": "1282" }
+    },
+    "status": "pending",
+    "orderDate": "2025-10-16T19:31:16.362Z",
+    "estimatedDelivery": "2025-10-16T20:16:16.363Z",
+    "userId": null,
+    "createdAt": { "$date": { "$numberLong": "1760643077076" } },
+    "updatedAt": { "$date": { "$numberLong": "1760643077076" } }
+  },
+  {
+    "_id": { "$oid": "68e6583e2c12b5f97f75ee4c" },
+    "id": "D1D2DF45",
+    "customerInfo": {
+      "fullName": "Belle Marquez",
+      "email": "xofys@mailinator.com",
+      "phone": "01723025991",
+      "address": "Excepteur qui qui at",
+      "city": "Molestias ea volupta",
+      "postalCode": "5400"
+    },
+    "items": [
+      {
+        "title": "Thai Green Curry",
+        "price": { "$numberInt": "420" },
+        "quantity": { "$numberInt": "1" },
+        "specialInstructions": ""
+      }
+    ],
+    "paymentMethod": "card",
+    "paymentIntentId": "pi_3SFwQS4EZqLRQpl41qmtstS1",
+    "pricing": {
+      "subtotal": { "$numberInt": "420" },
+      "deliveryFee": { "$numberInt": "50" },
+      "tax": { "$numberInt": "42" },
+      "total": { "$numberInt": "512" }
+    },
+    "status": "paid",
+    "orderDate": { "$date": { "$numberLong": "1759926334526" } },
+    "estimatedDelivery": { "$date": { "$numberLong": "1759929034526" } },
+    "createdAt": { "$date": { "$numberLong": "1759926334526" } },
+    "updatedAt": { "$date": { "$numberLong": "1759926334526" } }
+  },
+  {
+    "_id": { "$oid": "68e6781ec566f12c80ee21a2" },
+    "id": "5A5CC7F7",
+    "customerInfo": {
+      "fullName": "Shantunu Chakma",
+      "email": "chakmashantunu.web@gmail.com",
+      "phone": "+8801518313916",
+      "address": "College Gate, Amanat Bag",
+      "city": "Rangamati",
+      "postalCode": "4500"
+    },
+    "items": [
+      {
+        "title": "Chicken Satay",
+        "price": { "$numberInt": "320" },
+        "quantity": { "$numberInt": "1" },
+        "specialInstructions": ""
+      }
+    ],
+    "paymentMethod": "cash",
+    "paymentIntentId": null,
+    "pricing": {
+      "subtotal": { "$numberInt": "320" },
+      "deliveryFee": { "$numberInt": "50" },
+      "tax": { "$numberInt": "32" },
+      "total": { "$numberInt": "402" }
+    },
+    "status": "pending",
+    "orderDate": { "$date": { "$numberLong": "1759934494619" } },
+    "estimatedDelivery": { "$date": { "$numberLong": "1759937194619" } },
+    "createdAt": { "$date": { "$numberLong": "1759934494619" } },
+    "updatedAt": { "$date": { "$numberLong": "1759934494619" } }
+  }
+]
